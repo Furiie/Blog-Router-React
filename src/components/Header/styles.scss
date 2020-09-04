@@ -1,0 +1,15 @@
+@use 'src/styles/vars';
+
+.header {
+
+  text-align: center;
+  border-bottom: 1px solid vars.$alt-color;
+  &__link {
+    display: inline-block;
+    padding: vars.$gutter;
+    cursor: pointer;
+    &:hover, &.active {
+      color: vars.$primary-color;
+    }
+  }
+}

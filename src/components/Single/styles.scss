@@ -1,0 +1,20 @@
+@use 'src/styles/vars';
+
+.single {
+  padding: 8rem;
+  padding-top: 2rem;
+  
+  
+  
+
+  
+  h1 {
+    font-size: 2em;
+    color: vars.$primary-color;
+    padding-bottom: 1em;
+    text-align: center;
+    font-family: vars.$title-font;
+    font-weight: vars.$title-font-weight;
+    text-transform: uppercase;
+  }
+}

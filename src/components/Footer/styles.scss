@@ -1,0 +1,9 @@
+@use 'src/styles/vars';
+
+.footer {
+
+  text-align: center;
+  background-color: vars.$dark-color;
+  color: vars.$light-color;
+  padding: vars.$gutter * 2;
+}

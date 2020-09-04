@@ -1,0 +1,44 @@
+@use 'src/styles/vars';
+
+.posts {
+
+  max-width: 800px;
+  margin: vars.$gutter auto;
+  h1 {
+    text-align: center;
+    font-size: 2em;
+    font-family: vars.$title-font;
+    font-weight: vars.$title-font-weight;
+    color: vars.$primary-color;
+    margin-bottom: vars.$gutter;
+    text-transform: uppercase;
+  }
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.post {
+  width: 100%;
+  @media screen and (min-width: 600px) {
+    width: 50%;
+  }
+  padding: vars.$gutter;
+  &__title {
+    font-size: 1.3em;
+    text-transform: uppercase;
+    font-family: vars.$title-font;
+    font-weight: vars.$title-font-weight;
+    margin-bottom: vars.$gutter / 3;
+  }
+  &__category {
+    font-size: .8em;
+    display: inline-block;
+    background-color: vars.$primary-color;
+    color: vars.$light-color;
+    padding: vars.$gutter / 4;
+    text-transform: uppercase;
+    margin-bottom: vars.$gutter / 3;
+  }
+}

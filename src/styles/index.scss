@@ -1,0 +1,15 @@
+@use 'reset';
+@use 'vars';
+
+body {
+  font-family: vars.$global-font;
+  line-height: 1.6;
+  font-weight: vars.$global-font-weight;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  line-height: 1.2;
+}
